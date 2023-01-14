@@ -1,0 +1,38 @@
+{
+    "name": "keepsafe",
+    "version": "0.0.2",
+    "author": "sby051",
+    "description": "A secure note taking web app",
+    "private": true,
+    "scripts": {
+        "dev": "vite dev",
+        "vercel": "vercel",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "vercel --prod",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-vercel": "^1.0.0",
+        "@sveltejs/kit": "^1.0.1",
+        "@types/aes-js": "^3.1.1",
+        "@typescript-eslint/eslint-plugin": "^5.46.1",
+        "@typescript-eslint/parser": "^5.46.1",
+        "eslint": "^8.30.0",
+        "eslint-plugin-svelte3": "^4.0.0",
+        "path": "^0.12.7",
+        "svelte": "^3.55.0",
+        "svelte-check": "^2.10.2",
+        "svelte-preprocess": "^4.10.7",
+        "tslib": "^2.4.1",
+        "typescript": "^4.9.4",
+        "vite": "^4.0.1"
+    },
+    "type": "module",
+    "dependencies": {
+        "aes-js": "^3.1.2",
+        "material-symbols": "^0.4.2",
+        "vercel": "^28.10.3"
+    }
+}
