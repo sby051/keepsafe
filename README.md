@@ -1,4 +1,4 @@
-# KeepSafe
+# <img src="/static/favicon.png" height="25"/> KeepSafe
 
 `KeepSafe` is the easiest way to store notes in a locally encrypted vault.
 
